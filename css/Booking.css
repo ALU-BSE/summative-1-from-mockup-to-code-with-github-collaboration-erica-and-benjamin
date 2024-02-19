@@ -1,0 +1,154 @@
+main{
+    
+
+position: relative;
+width: 1043px;
+height: 690px;
+
+background: #F9D7A5;
+border-radius: 12px;
+margin-left: 50px;
+}
+.words h1{
+position: absolute;
+width: 332px;
+height: 78px;
+left: 280px;
+top: 185px;
+
+font-family: 'Coda';
+font-style: normal;
+font-weight: 400;
+font-size: 55px;
+line-height: 78px;
+text-align: center;
+text-transform: capitalize;
+color: #000000;
+}
+
+.words h5{
+   
+
+position: absolute;
+width: 424px;
+height: 72px;
+left: 280px;
+top: 256px;
+font-family: 'Tenali Ramakrishna';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 111.9%;
+color: #000000;
+}
+
+.listbox{
+   
+
+position: absolute;
+width: 308px;
+height: 289px;
+left: 268px;
+top: 339px;
+
+
+}
+
+.listbox p{
+position: absolute;
+left: 11px;
+right: 4.55px;
+top: 50px;
+bottom: 33.08px;
+}
+
+.container{
+
+position: absolute;
+width: 322px;
+height: 169px;
+left: 280px;
+top: 490px;
+
+
+}
+
+#options{
+   
+
+box-sizing: border-box;
+
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 4px;
+gap: 10px;
+isolation: isolate;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 83.02%;
+
+border: 2px solid #000000;
+border-radius: 8px;
+
+}
+
+.svg2 img{
+position: absolute;
+width: 131px;
+height: 131px;
+left: 55px;
+top: 75px;
+filter: drop-shadow(4px 7px 10px rgba(44, 23, 174, 0.42));
+
+}
+.svg3 img{
+
+
+position: absolute;
+width: 173.98px;
+height: 173.69px;
+left: 860px;
+top: 40.89px;
+
+filter: drop-shadow(0px 7px 10px rgba(233, 182, 121, 0.46));
+transform: rotate(-30deg);
+
+
+}
+
+.svg4 img{
+position: absolute;
+width: 606px;
+height: 506.98px;
+left: 480px;
+top: -70px;
+transform: rotate(-20deg);
+}
+.svg5 img{
+    
+
+position: absolute;
+width: 300px;
+height: 332px;
+left: 808px;
+top: 103px;
+transform: rotate(46deg);
+
+}
+
+.svg6 img{
+    /* continue */
+
+position: absolute;
+width: 179px;
+height: 181px;
+left: 865px;
+top: 508px;
+
+
+}
