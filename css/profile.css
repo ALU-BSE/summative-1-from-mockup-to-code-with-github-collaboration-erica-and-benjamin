@@ -1,11 +1,14 @@
+
+
+
 main{
- 
+
 position: relative;
 width: 833px;
 height: 502px;
 
 background: #F9D7A5;
-margin-left: 70px;
+margin-left: 150px;
 align-self: center;
 }
 
@@ -24,7 +27,7 @@ background: #FF6525;
     height: 50px;
     margin-left: 80px;
     margin-top: 20px;
-    
+
 }
 
 .frame1{
@@ -33,7 +36,7 @@ background: #FF6525;
     align-items: flex-end;
     padding: 0px;
     gap: 62px;
-    
+
     position: absolute;
     width: 178px;
     height: 35px;
@@ -64,7 +67,7 @@ color: #000000;
 flex: none;
 order: 1;
 flex-grow: 0;
- 
+
 }
 
 .frame2{
@@ -73,13 +76,13 @@ flex-grow: 0;
     align-items: flex-end;
     padding: 0px;
     gap: 62px;
-    
+
     position: absolute;
     width: 196px;
     height: 35px;
     left: 43px;
     top: 184px;
-    
+
 }
 
 .icon2{
@@ -197,7 +200,7 @@ top: 79px;
     height: 51px;
     left: 417px;
     top: 309px;
-    
+
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
@@ -205,9 +208,10 @@ top: 79px;
     line-height: 27px;
 
     text-align: center;
-    
+
     color: #000000;
 }
+
 
 
 

@@ -1,23 +1,35 @@
-*{
-
-background: #F9D7A5;
-margin: 0px;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('/images/image1.png') center top no-repeat;
+    background-size: cover;
+    padding-top: 0px;
+    background-color: #F9D7A5;
 }
 
-.ben{
-    /* figma1 2 */
 
-box-sizing: border-box;
 
-height: 531px;
-left: 0px;
-right: 0px;
-top: 0px;
-margin-top: 0px;
-background-size: contain;
-background: url('/images/image1.png');
-mix-blend-mode: hard-light;
-border: 1px solid #F9D7A5;
+.welcome-section {
+    text-align: center;
+    padding: 100px 0 10px 0; /* Adjust as needed */
+
+    /* A Tapestry of Timeless Moments */
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: small;
+
+margin-left: 100px;
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
 
 }
 
@@ -27,10 +39,10 @@ border: 1px solid #F9D7A5;
     justify-content: space-between;
     align-items: center;
 
-    background-color: #F9D7A5;
+
     color: #020202;
-    padding-left: 41px;
-    padding-right: 41px;
+    padding-left: 52px;
+    padding-right: 52px;
     padding-top: 5px;
 }
 
@@ -44,8 +56,9 @@ border: 1px solid #F9D7A5;
 
 
 /* Links styles */
-.links a {
-    margin: 0 10px; /* Adjust spacing between links */
+.links a{
+    margin-left: 10px;
+    margin: 0 20px; /* Adjust spacing between links */
     color: #000000;
     text-decoration: none;
     font-size: 12px;
@@ -78,6 +91,7 @@ border: 1px solid #F9D7A5;
 }
 
 .signup {
+    margin-left: 10px;
     background: #6F59F4;
     color: #333;
     border: none;
@@ -210,7 +224,7 @@ position: absolute;
 width: 101px;
 height: 77px;
 margin-right: 41px;
-left: 1005px;
+left: 1095px;
 top: 925px;
 
 
@@ -243,7 +257,7 @@ isolation: isolate;
 position: absolute;
 width: 258px;
 height: 307px;
-left: 458px;
+left: 510px;
 top: 654px;
 background-color: #ffffff;
 border-radius: 20px;
@@ -261,8 +275,8 @@ isolation: isolate;
 position: absolute;
 width: 258px;
 height: 307px;
-left: 789px;
-top: 661px;
+left: 880px;
+top: 655px;
 border-radius: 20px;
 background-color: #ffffff;
 }
@@ -428,7 +442,31 @@ margin-left: 141px;
 color: #0B1B35;
 }
 
+.rect1{
+    /* Rectangle 5 */
 
+position: absolute;
+width: 230x;
+height: 380px;
+left: 898px;
+top: 1140px;
+background: #FF6525;
+border-radius: 1006px 1006px 0px 0px;
+transform: rotate(-90deg);
+
+}
+
+.item1 img{
+    /* LOGO JUST */
+
+position: absolute;
+width: 50px;
+height: 50px;
+left: 680px;
+top: 1700px;
+
+
+}
 
 .footerimg img{
 position: absolute;
