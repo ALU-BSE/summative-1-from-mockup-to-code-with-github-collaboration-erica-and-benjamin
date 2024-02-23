@@ -1,0 +1,184 @@
+main{
+    /* Feedback */
+
+position: relative;
+width: 1043px;
+height: 690px;
+margin-left: 100px;
+background: #F9D7A5;
+border-radius: 12px;
+
+}
+
+.box img{
+
+        position: absolute;
+        width: 179px;
+        height: 181px;
+        left: 0px;
+        top: 508px;
+
+}
+h6{
+    /* GET IN TOUCH WITH US */
+
+position: absolute;
+width: 455px;
+height: 91px;
+left: 288px;
+top: 8px;
+
+font-family: 'Tenali Ramakrishna';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 67.5%;
+/* or 42px */
+text-align: center;
+
+color: #000000;
+
+
+}
+.input-container input{
+   /* Rectangle 3844 */
+
+box-sizing: border-box;
+
+width: 576px;
+height: 59px;
+margin-left: 250px;
+margin-top: 180px;
+
+background: #F9D7A5;
+border: 1px solid #F9D7A5;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+}
+
+.line{
+    /* Line 1 */
+
+position: absolute;
+width: 574px;
+height: 0px;
+left: 2px;
+top: 60px;
+margin-left: 250px;
+margin-top: 180px;
+
+border: 1px solid #949090;
+transform: rotate(-0.09deg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+}
+
+.input-container1 input{
+    /* Rectangle 3844 */
+
+ box-sizing: border-box;
+
+ width: 576px;
+ height: 59px;
+ margin-left: 250px;
+ margin-top: 62px;
+
+ background: #F9D7A5;
+ border: 1px solid #F9D7A5;
+
+ /* Inside auto layout */
+ flex: none;
+ order: 0;
+ flex-grow: 0;
+ z-index: 0;
+
+ }
+
+ .line1{
+     /* Line 1 */
+
+ position: absolute;
+ width: 574px;
+ height: 0px;
+ left: 2px;
+ top: 60px;
+ margin-left: 250px;
+ margin-top: 300px;
+
+ border: 1px solid #949090;
+ transform: rotate(-0.09deg);
+
+ /* Inside auto layout */
+ flex: none;
+ order: 1;
+ flex-grow: 0;
+ z-index: 1;
+
+ }
+
+ .input-container2 input{
+    /* Rectangle 3844 */
+
+ box-sizing: border-box;
+
+ width: 576px;
+ height: 59px;
+ margin-left: 250px;
+ margin-top: 62px;
+
+ background: #F9D7A5;
+ border: 1px solid #F9D7A5;
+
+ /* Inside auto layout */
+ flex: none;
+ order: 0;
+ flex-grow: 0;
+ z-index: 0;
+
+ }
+
+ .line2{
+     /* Line 1 */
+
+ position: absolute;
+ width: 574px;
+ height: 0px;
+ left: 2px;
+ top: 60px;
+ margin-left: 250px;
+ margin-top: 420px;
+
+ border: 1px solid #949090;
+ transform: rotate(-0.09deg);
+
+ /* Inside auto layout */
+ flex: none;
+ order: 1;
+ flex-grow: 0;
+ z-index: 1;
+
+ }
+
+ .submit{
+    /* Rectangle 3847 */
+
+position: absolute;
+width: 293px;
+height: 40px;
+left: 406px;
+top: 616px;
+
+background: #6F59F4;
+border-radius: 8px;
+
+ }

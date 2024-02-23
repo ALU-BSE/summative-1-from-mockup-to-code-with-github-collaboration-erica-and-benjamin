@@ -1,0 +1,159 @@
+main{
+position: relative;
+width: 1043px;
+height: 690px;
+background: #F9D7A5;
+border-radius: 12px;
+margin-left: 50px;
+}
+
+
+
+.number p{
+    /* Enter Phone number */
+
+position: absolute;
+left: 400.06px;
+right: 44.39px;
+top: 45.94px;
+bottom: 47.54px;
+
+font-family: 'Tenali Ramakrishna';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 50px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+}
+
+#phone{
+  
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px 16px;
+gap: 10px;
+
+position: absolute;
+width: 243px;
+height: 10px;
+left: 355px;
+top: 382px;
+
+background: #E8E4FF;
+box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+
+}
+
+.number button{
+    
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 96px;
+height: 53px;
+left: 682px;
+top: 382px;
+
+background: #6F59F4;
+border-radius: 10px;
+cursor: pointer;
+
+}
+
+
+
+
+.container{
+  
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 7px;
+position: absolute;
+width: 82px;
+height: 82px;
+left: 455px;
+top: 172px;
+cursor: pointer;
+
+
+}
+
+.svg2 img{
+    position: absolute;
+    width: 131px;
+    height: 131px;
+    left: 55px;
+    top: 75px;
+    filter: drop-shadow(4px 7px 10px rgba(44, 23, 174, 0.42));
+    
+    }
+    .svg3 img{
+    
+    
+    position: absolute;
+    width: 173.98px;
+    height: 173.69px;
+    left: 860px;
+    top: 40.89px;
+    
+    filter: drop-shadow(0px 7px 10px rgba(233, 182, 121, 0.46));
+    transform: rotate(-30deg);
+    
+    
+    }
+    
+    .svg4 img{
+    position: absolute;
+    width: 606px;
+    height: 506.98px;
+    left: 480px;
+    top: -70px;
+    transform: rotate(-20deg);
+    }
+    .svg5 img{
+        
+    
+    position: absolute;
+    width: 300px;
+    height: 332px;
+    left: 808px;
+    top: 103px;
+    transform: rotate(46deg);
+    
+    }
+    
+    .svg6 img{
+        /* continue */
+    
+    position: absolute;
+    width: 179px;
+    height: 181px;
+    left: 865px;
+    top: 508px;
+    
+    
+    }
+    .svg7 img{
+    position: absolute;
+    width: 179px;
+    height: 181px;
+    top: 508px;
+
+    
+    }
+

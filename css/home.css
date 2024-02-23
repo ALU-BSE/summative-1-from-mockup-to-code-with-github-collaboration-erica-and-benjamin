@@ -1,0 +1,499 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('/images/image1.png') center top no-repeat;
+    background-size: cover;
+    padding-top: 0px;
+    background-color: #F9D7A5;
+}
+
+
+
+.welcome-section {
+    text-align: center;
+    padding: 100px 0 10px 0; /* Adjust as needed */
+
+    /* A Tapestry of Timeless Moments */
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: small;
+
+margin-left: 100px;
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    color: #020202;
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-top: 5px;
+}
+
+/* Logo styles */
+.logo img {
+    width: 50px;
+    height: 42px;
+    margin-left: 30px; /* Adjust size as needed */
+     /* Maintain aspect ratio */
+}
+
+
+/* Links styles */
+.links a{
+    margin-left: 10px;
+    margin: 0 20px; /* Adjust spacing between links */
+    color: #000000;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: normal;
+    width: 70px;
+    height: 31px;
+    transform: rotate(1.27deg);
+
+
+}
+
+
+/* Buttons styles */
+
+.login {
+    background: #F4987A;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 12px;
+    align-items: center;
+    width: 52px;
+    height: 35px;
+    flex-direction: row;
+    padding: 10px;
+    gap: 12px;
+
+}
+.login:target{
+    display: block;
+}
+
+.signup {
+    margin-left: 10px;
+    background: #6F59F4;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 12px;
+    align-items: center;
+    width: 65px;
+    height: 35px;
+    flex-direction: row;
+    padding: 10px;
+    gap: 12px;
+    align-items: center;
+}
+
+.image1{
+
+
+box-sizing: border-box;
+position: absolute;
+height: 531px;
+left: 0px;
+right: -6px;
+top: 0px;
+mix-blend-mode: hard-light;
+border: 1px solid #F9D7A5;
+
+ }
+ .welcome{
+
+    background: none;
+    align-items: flex-start;
+    position: absolute;
+    width: 438px;
+    height: 218px;
+    left: 88px;
+    top: 181px;
+
+ }
+
+#first{
+  width: 218px;
+  height: 15px;
+  flex: none;
+  font-family: 'Inter';
+  font-size: 12px;
+  font-weight: 500;
+  color: #777272;
+  line-height: 15px;
+  font-style: normal;
+   background-color: none;
+  margin-left: 41px;
+
+}
+
+.title{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+position: absolute;
+width: 303px;
+height: 54px;
+left: calc(50% - 303px/2 + 20px);
+top: 528px;
+}
+
+.title1 {
+
+width: 288px;
+height: 39px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 39px;
+display: flex;
+margin-left: 180px;
+align-items: center;
+text-align: center;
+color: #FF6525;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.title2{
+width: 236px;
+height: 15px;
+left: 900px;
+top: 0px;
+font-family: 'Inter';
+font-style: normal;
+margin-top: 0px;
+font-weight: 500;
+margin-left: 100px;
+font-size: 16px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.dot1 img{
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+position: absolute;
+width: 101px;
+height: 77px;
+left: 83px;
+top: 624px;
+
+
+}
+
+.dot2 img{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+position: absolute;
+width: 101px;
+height: 77px;
+margin-right: 41px;
+left: 1095px;
+top: 925px;
+
+
+}
+
+.rectangle1{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+isolation: isolate;
+position: absolute;
+width: 258px;
+height: 307px;
+left:   142px;
+top: 661px;
+border-radius: 20px;
+rotate: 360deg;;
+background-color: #ffffff;
+}
+.eme1{
+
+width: 258px;
+height: 225px;
+left: 147px;
+top: 400px;
+rotate: 360deg;
+border-radius: 20px 20px 0px 0px;
+
+
+}
+
+.rectangle2{
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+isolation: isolate;
+position: absolute;
+width: 258px;
+height: 307px;
+left: 510px;
+top: 654px;
+background-color: #ffffff;
+border-radius: 20px;
+
+
+}
+
+.rectangle3{
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+isolation: isolate;
+position: absolute;
+width: 258px;
+height: 307px;
+left: 880px;
+top: 655px;
+border-radius: 20px;
+background-color: #ffffff;
+}
+
+
+.testi{
+
+position: absolute;
+width: 302px;
+height: 109px;
+left: 530px;
+top: 1011px;
+}
+.testi1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 39px;
+    margin-left: 78px;
+    color: #FF6525;
+    width: 264px;
+    height: 28px;
+}
+
+.testi2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+
+    line-height: 15px;
+    color: #000000;
+    width: 302px;
+    height: 39px;
+    margin-left: 70px;
+    margin-top: 15px;
+
+}
+
+.abouta{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 21px;
+position: absolute;
+width: 488px;
+height: 152px;
+left: 88px;
+top: 1163px;
+}
+.person1 img{
+    /* Ellipse 6 */
+
+width: 88px;
+height: 94px;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.about1{
+width: 379px;
+height: 152px;
+flex: none;
+order: 1;
+flex-grow: 0;
+left: 100px;
+background-color: none;
+
+}
+.about1-1{
+    /* Get a fully retina ready site when you build with Startup Framework. Websites look sharper and more gorgeous on devices with retina display support */
+
+position: absolute;
+width: 359px;
+height: 132px;
+left: 100px;
+top: 10px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+
+color: #000000;
+
+
+}
+.about1-2{
+    /* Group 20 */
+
+position: absolute;
+width: 224px;
+height: 19px;
+font-weight: 700;
+top: 109px;
+margin-left: 100px;
+color: #0B1B35;
+
+}
+
+.aboutb{
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 21px;
+position: absolute;
+width: 488px;
+height: 152px;
+left: 88px;
+top: 1327px;
+}
+
+.about2{
+width: 379px;
+height: 152px;
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.about2-1{
+    /* Get a fully retina ready site when you build with Startup Framework. Websites look sharper and more gorgeous on devices with retina display support */
+
+position: absolute;
+width: 359px;
+height: 132px;
+left: 100px;
+top: 10px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+
+color: #000000;
+
+}
+
+.about2-2{
+    /* Benjamin Ishimwe */
+
+position: absolute;
+width: 224px;
+height: 19px;
+left: -35px;
+top: 109px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+text-align: center;
+margin-left: 141px;
+color: #0B1B35;
+}
+
+.frame img{
+    margin-left: 805px;
+    top: 800px;
+}
+
+.item1 img{
+    /* LOGO JUST */
+
+position: absolute;
+width: 50px;
+height: 50px;
+left: 650px;
+top: 1530px;
+
+
+}
+
+
+
+
+.footer2 img{
+    /* Footer OG */
+
+position: absolute;
+width: 1200px;
+height: 422px;
+left: 28px;
+margin-top: 1300px;
+background-color: none;
+
+
+}
+
+
+
