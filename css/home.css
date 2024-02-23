@@ -88,6 +88,10 @@ flex-grow: 0;
     flex-direction: row;
     padding: 10px;
     gap: 12px;
+
+}
+.login:target{
+    display: block;
 }
 
 .signup {
@@ -458,21 +462,9 @@ margin-left: 141px;
 color: #0B1B35;
 }
 
-.rect1{
-    /* Rectangle 5 */
-
-
-
-width: 270.52px;
-height: 457.6px;
-left: 570.52px;
-
-
-background: #FF6525;
-border-radius: 1006px 1006px 0px 0px;
-transform: rotate(-90deg);
-
-
+.frame img{
+    margin-left: 805px;
+    top: 800px;
 }
 
 .item1 img{
@@ -502,3 +494,6 @@ background-color: none;
 
 
 }
+
+
+
